@@ -354,8 +354,8 @@ def create_logger(name: str, save_dir: str = None, quiet: bool = False) -> loggi
     """
     logger = logging.getLogger(name)
 
-    if logging.getLogger().hasHandlers():
-        return logger
+    #if logging.getLogger().hasHandlers():
+    #    return logger
 
     logger.setLevel(logging.DEBUG)
     logger.propagate = False
