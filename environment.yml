@@ -1,4 +1,4 @@
-name: chemprop
+name: chemprop_cogdata
 
 channels:
   - conda-forge
